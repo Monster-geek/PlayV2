@@ -1,3 +1,7 @@
 play_main_homepage:
     path:     /
-    defaults: { _controller: PlayMainBundle:Default:index }
+    defaults: { _controller: FOSUserBundle:Security:login  }
+
+play_game_user:
+    path:     /game/
+    defaults: { _controller: PlayMainBundle:Session:test }
