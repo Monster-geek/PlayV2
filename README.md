@@ -4,7 +4,8 @@ InfiniTeam Gaming Play V2.0
 1. Description
 2. Technologies
 3. PBE
-4. License
+4. Installation
+5. License
 
 
 1. Description
@@ -25,7 +26,14 @@ La notion de PBE est importante ici. Le "Public Beta Environment" est une sorte 
 Certains patch pouront etre deployé sur le PBE avant meme leur publication sur GitHub ou leur patchnote sur le site.
 Certaines modifications pouront etre apporté sur le PBE et/ou sur le "Play" sans etre publié sur Github ou sans patchnotes sur le site.
 
-4. Licence
+4. Installation
+---------------
+
+Vous pouvez creer votre propre version du serveur a partir de ce code source. Il vous faudra un serveur Apache avec PHP 5.5 et un serveur MySQL.
+Une image Docker sera peut-etre publier lors de la version V2.0.5.
+Plus d'information viendrons lors de la suite du projet.
+
+5. Licence
 ----------
 
 Copyright (c) 2014-2015 Infiniteam Gaming
@@ -36,4 +44,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
- 
+
