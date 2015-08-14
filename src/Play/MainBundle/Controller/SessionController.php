@@ -6,9 +6,12 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class SessionController extends Controller {
 
-    public function testAction()
+    public function homeAction()
     {
-        return $this->render('PlayMainBundle::testsession.html.twig');
+
+        $current_user = $this->get('security.context')->getToken()->getUser();
+
+        return $this->render('PlayMainBundle:game-core:home.html.twig', array('user'=>$current_user));
     }
 
 } 

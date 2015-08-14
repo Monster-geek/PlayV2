@@ -4,4 +4,4 @@ play_main_homepage:
 
 play_game_user:
     path:     /game/
-    defaults: { _controller: PlayMainBundle:Session:test }
+    defaults: { _controller: PlayMainBundle:Session:home }
