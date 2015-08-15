@@ -5,3 +5,7 @@ play_main_homepage:
 play_game_user:
     path:     /game/
     defaults: { _controller: PlayMainBundle:Session:home }
+
+play_AH_main_page:
+    path:     /game/hdv/
+    defaults: { _controller: PlayMainBundle:AH:display }
