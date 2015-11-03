@@ -1,0 +1,21 @@
+Play\MainBundle\Entity\Ressources:
+    type:  entity
+    table: Ressources
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        account_money:
+            type: decimal
+            length: 100
+        b1_lv:
+            type: decimal
+            length: 9
+        b2_lv:
+            type: decimal
+            length: 9
+        b3_lv:
+            type: decimal
+            length: 9
